@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>notes</title>
+  <meta charset="utf-8">
+    <link rel="stylesheet" href=" main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+
+  <div class="container">
+
+  <form>
+
+    <h2>Заголовки:</h2>
+    <ul id="list"></ul>
+
+     
+      </form>
+
+  <form>
+
+    <label> Название заметки:</label>
+    <input type="text" id="notice_title">
+
+    <div class="buttons">
+      <input type="submit" value="Сохранить" onclick="save()">
+    </div>
+
+       </form>
+
+      <form>
+
+    <label>Текст заметки:</label>
+    <textarea name="note" rows="9" id="notice_text"></textarea>
+
+       </form>
+      
+      <form>
+
+        <label>Написанный текст:</label>
+    <textarea name="note" rows="9" id="notice_text_result"></textarea>
+
+        </form>
+  </div>
+
+
+  <script src="./index.js"></script>
+ 
+</body>
+</html>
